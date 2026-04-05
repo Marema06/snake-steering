@@ -7,7 +7,7 @@
 
 **[Jouer sur GitHub Pages](https://marema06.github.io/snake-steering/)**
 
-**[Vidéo YouTube](https://youtu.be/VOTRE_LIEN)**
+**[Vidéo YouTube](https://youtu.be/sOIorAfJM78)**
 
 ---
 
