@@ -5,7 +5,7 @@
 
 ## Démo en ligne
 
-**[Jouer sur GitHub Pages](https://VOTRE_PSEUDO.github.io/VOTRE_REPO/7-SnakeGame/)**
+**[Jouer sur GitHub Pages](https://marema06.github.io/snake-steering/)**
 
 **[Vidéo YouTube](https://youtu.be/VOTRE_LIEN)**
 
