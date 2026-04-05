@@ -1524,6 +1524,21 @@ function keyPressed() {
     if (key==='2') { difficulte='normal'; demarrerJeu(); }
     if (key==='3') { difficulte='enfer';  demarrerJeu(); }
   }
+  // Touche démo (vidéo) — +10 pts = +1 niveau
+  if ((key==='n'||key==='N') && etat==='jeu') {
+    score += 10;
+    let nvNiveau = floor(score/10)+1;
+    if (nvNiveau > niveau) {
+      niveau = nvNiveau;
+      obstacles.push(spawnerObstacle());
+      msgNiveau = new NiveauTexte(niveau);
+      jouerSon('niveauUp');
+      demarrerTremblement(7,18);
+      if (niveau >= 2 && !zoneBonus) zoneBonus = new ZoneBonus();
+      if (niveau === 3 && !portail) portail = new Portail();
+      if (niveau === 6 && !rival) rival = new RivalSnake(random(100,width-100), random(100,height-100));
+    }
+  }
 }
 function mousePressed() {
   initAudio();
